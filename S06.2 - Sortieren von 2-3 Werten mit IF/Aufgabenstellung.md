@@ -2,7 +2,7 @@
 Legen eine Funktion an, die zwei ganzzahlige Parameter mit IF –Verzweigungen in aufsteigender Reihenfolge sortiert: UDF_SORT( 4,3) ergibt (3,4).
 Zur Lösung können Sie dieses Grundgerüst einer Funktion nutzen:
 
-'''SQL
+```SQL
 CREATE FUNCTION udf_sort_2(iv_wert1 INT,
                            iv_wert2 INT)
 RETURNS rv_klein  INT,
@@ -12,7 +12,7 @@ AS BEGIN
    <Hier bitte den eigenen Code einfügen>
 
 END;
-'''
+```
 
 # Für Profis
 Sortieren Sie drei Werte in aufsteigender Reihenfolge.
