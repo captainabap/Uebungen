@@ -16,6 +16,7 @@ END;
 
 # Für Profis
 Sortieren Sie drei Werte in aufsteigender Reihenfolge.
+```SQL
 CREATE FUNCTION udf_sort_3(iv_wert1 INT,
                            iv_wert2 INT,
                            iv_wert3 INT )
@@ -27,3 +28,4 @@ AS BEGIN
    <Hier bitte den eigenen Code einfügen>
 
 END;
+```
